@@ -1,31 +1,11 @@
 # Three-Tier Python Web Application on Google Compute Engine and CloudSQL
 
-Welcome to this hands-on tutorial on building a three-tier web application using Python and deploying it onto Google Compute Engine and CloudSQL (MySQL).
-
-## Overview
-
-This repository contains resources and code for creating a robust three-tier web application. The project walks you through the development process in Python, testing it locally, and deploying it onto Google Compute Engine for a seamless user experience.
-
-## Key Features
-
-- **Python Development:** Learn to develop a web application using Python.
-- **Local Testing:** Understand how to test the application in a local environment.
-- **Google Compute Engine Deployment:** Deploy the application onto Google Compute Engine effortlessly.
-- **Perfect for Beginners:** Ideal for newcomers to Python programming and the Google Cloud platform.
-
-## Getting Started
-
-Follow these steps to get started:
-
-1. Clone the repository.
-2. Review the code and follow the instructions in the documentation.
-3. Start building your three-tier web application on Google Compute Engine!
-
-## Resources
-
-- Detailed documentation within the repository.
-- Video tutorial (https://youtu.be/pTtqGvDJ1DQ).
-
-Feel free to explore, experiment, and enhance the project according to your requirements.
-
-Happy coding!
+#steps to execute this project
+1. Create a VM instance and SSH into the instance
+2. Install git using "apt -y install git"
+3. Install the mysql client to connect the VM instance and the mysql using the command "apt -y install default-mysql-client"
+4. Clone the repository using the command "git clone https://github.com/Kavitha134/three-tier-app.git"
+5. Modify the config.py according to your mysql database connections.
+6. Add the IP address of your VM instance to the mysql autorised connections
+7. Install the neccessary pacakages using the command "python3 -m pip install -r requirements.txt "
+8. Run "python app.py" 
