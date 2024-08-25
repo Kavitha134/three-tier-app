@@ -1,5 +1,5 @@
 DATABASE_CONFIG = {
-    'host': '34.100.208.210',
+    'host': '34.100.183.100',
     'user': 'appuser',
     'password': 'abcd',
     'database': 'appdb'
